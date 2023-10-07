@@ -41,7 +41,7 @@
 	<li><a href="#task-allocation">Task Allocation</a></li>      
       </ul>
     </li>
-    <li><a href="#technologies">Technologies</a></li>
+    <li><a href="#Tool-Used">Tool Used</a></li>
     <li><a href="#features">Features</a></li>
     <li><a href="#challenges">Challenges</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -80,39 +80,35 @@ Data science and data visualization projects are becoming increasingly popular w
 | 3     |  | Tri Tin |      25      |
 | 4     |  | Binh Nguyen  |      25      |
 
-
 <br />
 
-## Tool used <a name="Tool used"></a>
+## Tool Used 
 - Language: [JavaScript](https://www.javascript.com)
 - Framework: [React](https://reactjs.org)
 - Library: [D3.js](https://d3js.org)
 
-
 <!-- FEATURES -->
-## Features <a name="Features"></a>
+## Features 
 - Completed: UX/UI,
 - Incompleted: Map clicking to zoom to bounding box
   <br />
 
 <!-- CHALLENGES -->
-## Challenges<a name="Challenges">
+## Challenges
 
 - Task allocation for each team member
 - Using platform for communication ([Drive](https://drive.google.com/drive/folders/16kYHirTOXbcELtR-mdmpXU44hPHjq5Cn?usp=sharing))
 - Working environment (Github)
   <br />
 
-## Acknowledgments<a name="Acknowledgments">
+## Acknowledgments
 <div style="text-align:justify">
 
 </div>
 
 <br />
 
-
-## References<a name="References">  :eye::tongue::eye:
-1. [johnbrandt](https://johnbrandt.org/portfolio/d3/)
+## References
 
 <br />
 
