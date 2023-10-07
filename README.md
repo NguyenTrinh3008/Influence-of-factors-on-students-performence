@@ -2,15 +2,13 @@
 <img src="" alt="Banner">
 </div>
 
-<!-- Git status -->
-<div align="center">
+<!-- Shield.io Badges -->
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
-</div>
+<p align="center">
+    <a href=""><img src=""></a>
+    <a href=""><img src=""></a>
+    <a href=""><img src=""></a>
+</p>
 
 <!-- PROJECT LOGO -->
 <br />
