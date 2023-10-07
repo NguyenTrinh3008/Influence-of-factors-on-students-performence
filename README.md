@@ -1,9 +1,4 @@
-<div id="top" align="center">
-<img src="" alt="Banner">
-</div>
-
 <!-- Shield.io Badges -->
-
 <p align="center">
     <a href=""><img src=""></a>
     <a href=""><img src=""></a>
@@ -112,14 +107,5 @@
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/Nhathuy1305/Worldwide-mental-health-disorders-data-visualization.svg?style=for-the-badge
-[contributors-url]: https://github.com/MicroGix/Influence-of-factors-on-students-performence/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Nhathuy1305/Worldwide-mental-health-disorders-data-visualization.svg?style=for-the-badge
-[forks-url]: https://github.com/MicroGix/Influence-of-factors-on-students-performence/forks
-[stars-shield]: https://img.shields.io/github/stars/Nhathuy1305/Worldwide-mental-health-disorders-data-visualization.svg?style=for-the-badge
-[stars-url]: https://github.com/MicroGix/Influence-of-factors-on-students-performence/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Nhathuy1305/Worldwide-mental-health-disorders-data-visualization.svg?style=for-the-badge
-[issues-url]: https://github.com/MicroGix/Influence-of-factors-on-students-performence/issues 
+
