@@ -52,7 +52,7 @@
 ## Introduction 
 
 <div style="text-align:justify">
-Data science and data visualization projects are becoming increasingly popular with businesses of all sizes. By leveraging powerful software tools, businesses can get a bird's-eye view of how their operations are functioning and make well-informed decisions that help increase efficiency, reduce costs, and improve product/service offerings. Data science allows companies to enhance customer experience by collecting large amounts of customer data for analysis, then using the data to build targeted marketing campaigns or create personalized customer recommendations. Data visualization tools emerge naturally from the structure and insights of datasets, enabling business leaders to quickly identify patterns and trends in their data that would otherwise remain hidden. Ultimately, these projects provide an invaluable bridge between analytics models and executive decision making – helping business leaders turn their data into actionable insights.
+
 </div>
 
 ### Team Members 
@@ -89,26 +89,26 @@ Data science and data visualization projects are becoming increasingly popular w
 
 <!-- FEATURES -->
 ## Features 
-- Completed: UX/UI,
-- Incompleted: Map clicking to zoom to bounding box
+- something go here
+
   <br />
 
 <!-- CHALLENGES -->
 ## Challenges
+- something go here
 
-- Task allocation for each team member
-- Using platform for communication ([Drive](https://drive.google.com/drive/folders/16kYHirTOXbcELtR-mdmpXU44hPHjq5Cn?usp=sharing))
-- Working environment (Github)
   <br />
 
 ## Acknowledgments
 <div style="text-align:justify">
+  something go here
 
 </div>
 
 <br />
 
 ## References
+- something go here
 
 <br />
 
@@ -116,3 +116,12 @@ Data science and data visualization projects are becoming increasingly popular w
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/Nhathuy1305/Worldwide-mental-health-disorders-data-visualization.svg?style=for-the-badge
+[contributors-url]: https://github.com/MicroGix/Influence-of-factors-on-students-performence/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Nhathuy1305/Worldwide-mental-health-disorders-data-visualization.svg?style=for-the-badge
+[forks-url]: https://github.com/MicroGix/Influence-of-factors-on-students-performence/forks
+[stars-shield]: https://img.shields.io/github/stars/Nhathuy1305/Worldwide-mental-health-disorders-data-visualization.svg?style=for-the-badge
+[stars-url]: https://github.com/MicroGix/Influence-of-factors-on-students-performence/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Nhathuy1305/Worldwide-mental-health-disorders-data-visualization.svg?style=for-the-badge
+[issues-url]: https://github.com/MicroGix/Influence-of-factors-on-students-performence/issues 
