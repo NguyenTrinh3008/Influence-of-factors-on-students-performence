@@ -2,6 +2,7 @@
 <img src="./assets/logo/banner.jpg" alt="Banner">
 </div>
 
+<!-- Git status -->
 <div align="center">
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -19,18 +20,16 @@
   </a>
 
 <h3 align="center">DATA SCIENCE AND DATA VISUALIZATION</h3>
-<h4 align="center">Team Name: Ăn nói xà lơ!</h4>
+<h4 align="center">Team Name: ______ </h4>
 
   <p align="center">
-    A website dashboard created with React - MySQL - D3.js for Data Science and Data Visualization course in International University - VNUHCM!
     <br />
     <br />
-    <!-- <a href="https://youtu.be/iLo5E-07aY0">View Demo</a> -->
   </p>
 </div>
 
 <!-- TABLE OF CONTENTS -->
-# Table of contents :round_pushpin:
+# Table of contents 
 1. [Introduction](#Introduction)
 2. [Techniques](#Techniques)
 3. [Charts](#Charts)
@@ -38,7 +37,6 @@
 5. [Challenges](#Challenges)
 6. [Acknowledgments](#Acknowledgments)
 7. [References](#References)
-<!-- <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -57,7 +55,6 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
     <li><a href="#references">References</a></li>
   </ol>
-</details> -->
 
 <!-- ABOUT THE PROJECT -->
 
