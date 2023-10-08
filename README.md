@@ -1,3 +1,4 @@
+<div id="header">
 <!-- PROJECT LOGO -->
 <h3 align="center">
    <img src="./assets/logo/logo.png" alt="Logo" width="200" height="200">
@@ -34,6 +35,8 @@
     <li><a href="#references">References</a></li>
   </ol>
 
+</div>
+
 <!-- ABOUT THE PROJECT -->
 ## Introduction 
 
@@ -41,6 +44,8 @@
   Something go here
 </p>
 
+
+<!-- TEAM MEMBERS -->
 ### Team Members 
 
 | Order |         Name          |     ID      |                  Email                  |                       Github account                        |                              Facebook                              |
@@ -50,14 +55,19 @@
 |   3   | Nguyen Tri Tin | ITDSIU21123 | -- | -- | -- |
 |   4   | Trinh Binh Nguyen | ITDSIU21103 | -- | -- | -- |
 
+
+<!-- INSTALLATION -->
 ### Installation 
 
+
+<!-- MOTIVATION -->
 ### Motivation 
 
 <p align="justify">
-  Something go here
+
 </p>
 
+<!-- TASK ALLOCATION -->
 ### Task Allocation 
 | Order | Task                                  |  Person   | Contribution (%) |
 | :---- |:--------------------------------------| :-------: | :----------: |
@@ -66,26 +76,23 @@
 | 3     |  | Tri Tin |      25      |
 | 4     |  | Binh Nguyen  |      25      |
 
-<br />
-
+<!-- TOOL USED -->
 ## Tool Used 
 
 <!-- FEATURES -->
 ## Features 
-- something go here
 
 <!-- CHALLENGES -->
 ## Challenges
-- something go here
 
+<!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 <p align="justify">
-  Something go here
 </p>
 
+<!-- REFERENCES -->
 ## References
-- something go here
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
