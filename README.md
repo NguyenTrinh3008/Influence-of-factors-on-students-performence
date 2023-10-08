@@ -38,8 +38,6 @@
     <li><a href="#references">References</a></li>
   </ol>
 
-<div id="introduction">
-
 <!-- ABOUT THE PROJECT -->
 # Introduction 
 <p align="justify">
@@ -77,10 +75,6 @@
 | 3     |  | Tri Tin |      25      |
 | 4     |  | Binh Nguyen  |      25      |
 
-</div>
-
-<div id="Body">
-
 <!-- TOOL USED -->
 # Tool Used 
 
@@ -99,8 +93,6 @@
 
 <!-- REFERENCES -->
 # References
-
-</div>
 
 <p align="right">(<a href="#header">Back to top</a>)</p>
 
