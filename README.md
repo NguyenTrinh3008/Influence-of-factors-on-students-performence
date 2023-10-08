@@ -1,3 +1,8 @@
+<!-- PROJECT LOGO -->
+<h3 align="center">
+
+</h3>
+
 <!-- Shield.io Badges -->
 <p align="center">
     <a href=""><img src=""></a>
@@ -5,22 +10,10 @@
     <a href=""><img src=""></a>
 </p>
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="">
-    <img src="./assets/logo/logo.png" alt="Logo" width="200" height="200">
-  </a>
-
-<h3 align="center">DATA SCIENCE AND DATA VISUALIZATION</h3>
-<h4 align="center">Team Name: ______</h4>
-
-  <p align="center">    
-    something here
-    <br />
-    <br />
-  </p>
-</div>
+<!-- Some introduction -->
+<p align="center">
+  Something go here
+</p>
 
 <!-- TABLE OF CONTENTS -->
   <summary>Table of Contents</summary>
@@ -44,9 +37,9 @@
 <!-- ABOUT THE PROJECT -->
 ## Introduction 
 
-<div style="text-align:justify">
-
-</div>
+<p align="justify">
+  Something go here
+</p>
 
 ### Team Members 
 
@@ -61,9 +54,9 @@
 
 ### Motivation 
 
-<div style="text-align:justify">
-
-</div>
+<p align="justify">
+  Something go here
+</p>
 
 ### Task Allocation 
 | Order | Task                                  |  Person   | Contribution (%) |
@@ -76,9 +69,6 @@
 <br />
 
 ## Tool Used 
-- Language: [JavaScript](https://www.javascript.com)
-- Framework: [React](https://reactjs.org)
-- Library: [D3.js](https://d3js.org)
 
 <!-- FEATURES -->
 ## Features 
