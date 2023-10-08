@@ -49,10 +49,10 @@
 
 | Order |         Name          |     ID      |                  Email                  |                       Github account                        |                              Facebook                              |
 | :---: | :-------------------: | :---------: |:---------------------------------------:| :---------------------------------------------------------: | :----------------------------------------------------------------: |
-|   1   | Nguyen Hong Son | ITDSIU21117 | soniu03052003@gmail.com | [Son-SDT]https://github.com/Son-SDT | [Son Son]https://www.facebook.com/nguyenhongson0305outlook |
-|   2   | Nguyen Nhat Khiem | ITDSIU21091 | nhatkhiem003@gmail.com | [Khim3]https://github.com/Khim3 | [Khiem Nguyen]https://www.facebook.com/khiem.nguyen.042 |
-|   3   | Nguyen Tri Tin | ITDSIU21123 | tinnguyen109@outlook.com | [MicroGix]https://github.com/MicroGix | [Tin Nguyen]https://www.facebook.com/tinnguyen105/ |
-|   4   | Trinh Binh Nguyen | ITDSIU21103 | Trinhbinhnguyen308@gmail.com  | [NguyenTrinh308]https://github.com/NguyenTrinh308 | [Nguyên Trịnh]https://www.facebook.com/profile.php?id=100014319038025&mibextid=LQQJ4d |
+|   1   | Nguyen Hong Son | ITDSIU21117 | soniu03052003@gmail.com | [Son-SDT](https://github.com/Son-SDT) | [Son Son](https://www.facebook.com/nguyenhongson0305outlook) |
+|   2   | Nguyen Nhat Khiem | ITDSIU21091 | nhatkhiem003@gmail.com | [Khim3](https://github.com/Khim3) | [Khiem Nguyen](https://www.facebook.com/khiem.nguyen.042) |
+|   3   | Nguyen Tri Tin | ITDSIU21123 | tinnguyen109@outlook.com | [MicroGix](https://github.com/MicroGix) | [Tin Nguyen](https://www.facebook.com/tinnguyen105/) |
+|   4   | Trinh Binh Nguyen | ITDSIU21103 | Trinhbinhnguyen308@gmail.com  | [NguyenTrinh308](https://github.com/NguyenTrinh308) | [Nguyên Trịnh](https://www.facebook.com/profile.php?id=100014319038025&mibextid=LQQJ4d) |
 
 
 <!-- INSTALLATION -->
