@@ -34,19 +34,18 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
     <li><a href="#references">References</a></li>
   </ol>
-
 </div>
 
-<!-- ABOUT THE PROJECT -->
-## Introduction 
+<div id="introduction">
 
+<!-- ABOUT THE PROJECT -->
+# Introduction 
 <p align="justify">
-  Something go here
+
 </p>
 
-
 <!-- TEAM MEMBERS -->
-### Team Members 
+## Team Members 
 
 | Order |         Name          |     ID      |                  Email                  |                       Github account                        |                              Facebook                              |
 | :---: | :-------------------: | :---------: |:---------------------------------------:| :---------------------------------------------------------: | :----------------------------------------------------------------: |
@@ -57,18 +56,18 @@
 
 
 <!-- INSTALLATION -->
-### Installation 
+## Installation 
 
 
 <!-- MOTIVATION -->
-### Motivation 
+## Motivation 
 
 <p align="justify">
 
 </p>
 
 <!-- TASK ALLOCATION -->
-### Task Allocation 
+## Task Allocation 
 | Order | Task                                  |  Person   | Contribution (%) |
 | :---- |:--------------------------------------| :-------: | :----------: |
 | 1     |  | Hong Son  |      25      |
@@ -76,23 +75,30 @@
 | 3     |  | Tri Tin |      25      |
 | 4     |  | Binh Nguyen  |      25      |
 
+</div>
+
+<div id="Body">
+
 <!-- TOOL USED -->
-## Tool Used 
+# Tool Used 
 
 <!-- FEATURES -->
-## Features 
+# Features 
 
 <!-- CHALLENGES -->
-## Challenges
+# Challenges
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+# Acknowledgments
 
 <p align="justify">
+
 </p>
 
 <!-- REFERENCES -->
-## References
+# References
+
+</div>
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
