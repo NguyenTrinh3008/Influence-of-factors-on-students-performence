@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <h3 align="center">
-  <img src="./assets/logo/logo.png" alt="logo">
+   <img src="./assets/logo/logo.png" alt="Logo" width="200" height="200">
 </h3>
 
 <!-- Shield.io Badges -->
