@@ -1,16 +1,18 @@
-<div id="header">
+<div id="header", align="center">
 <!-- PROJECT LOGO -->
-<h3 align="center">
    <img src="./assets/logo/logo.png" alt="Logo" width="200" height="200">
-</h3>
+</div>
 
 <!-- Shield.io Badges -->
 <div align="center">
-    [![Contributors][contributors-shield]][contributors-url]
-    [![Forks][forks-shield]][forks-url]
-    [![Stargazers][stars-shield]][stars-url]
-    [![Issues][issues-shield]][issues-url]
+	
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
 </div>
+
 
 <!-- Welcome line -->
 <p align="center">
@@ -35,7 +37,6 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
     <li><a href="#references">References</a></li>
   </ol>
-</div>
 
 <div id="introduction">
 
@@ -105,17 +106,10 @@
 
 <!-- Badges link-->
 [contributors-shield]: https://img.shields.io/github/contributors/MicroGix/Influence-of-factors-on-students-performence?style=for-the-badge&label=Contributors 
-
 [contributors-url]: https://github.com/MicroGix/Influence-of-factors-on-students-performence/graphs/contributors 
-
-[forks-shield]:
-
-[forks-url]: 
-
-[stars-shield]: 
-
-[stars-url]: 
-
-[issues-shield]: 
-
-[issues-url]: 
+[forks-shield]:https://img.shields.io/github/forks/MicroGix/Influence-of-factors-on-students-performence?label=Folks&style=for-the-badge
+[forks-url]: https://github.com/MicroGix/Influence-of-factors-on-students-performence/forks
+[stars-shield]: https://img.shields.io/github/stars/MicroGix/Influence-of-factors-on-students-performence?style=for-the-badge&label=Stars
+[stars-url]: https://github.com/MicroGix/Influence-of-factors-on-students-performence/stargazers
+[issues-shield]: https://img.shields.io/github/issues/MicroGix/Influence-of-factors-on-students-performence?style=for-the-badge&label=Issues
+[issues-url]: https://github.com/MicroGix/Influence-of-factors-on-students-performence/issues
