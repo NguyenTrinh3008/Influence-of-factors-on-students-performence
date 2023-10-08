@@ -6,7 +6,7 @@
 
 <!-- Shield.io Badges -->
 <p align="center">
-    <a href="https://github.com/MicroGix/Influence-of-factors-on-students-performence/graphs/contributors"><img src="https://img.shields.io/github/downloads/MicroGix/Influence-of-factors-on-students-performence/total?style=for-the-badge&label=CONTRIBUTORS"></a>
+    <a href="https://github.com/MicroGix/Influence-of-factors-on-students-performence/graphs/contributors"><img src="https://img.shields.io/github/all-contributors/MicroGix/Influence-of-factors-on-students-performence/main?style=for-the-badge&label=Contributors"></a>
     <a href=""><img src=""></a>
     <a href=""><img src=""></a>
 </p>
