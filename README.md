@@ -17,7 +17,7 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
-  <summary>Table of Contents</summary>
+# Table of Contents
   <ol>
     <li>
       <a href="#Introduction">Introduction</a>
