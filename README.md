@@ -2,6 +2,7 @@
 <!-- PROJECT LOGO -->
    <img src="./assets/logo/logo.png" alt="Logo" width="200" height="200">
 </div>
+</br>
 
 <!-- Shield.io Badges -->
 <div align="center">
