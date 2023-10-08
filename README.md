@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <h3 align="center">
-
+  <img src="./assets/logo/banner.jpg" alt="Banner">
 </h3>
 
 <!-- Shield.io Badges -->
@@ -10,9 +10,9 @@
     <a href=""><img src=""></a>
 </p>
 
-<!-- Some introduction -->
+<!-- Welcome line -->
 <p align="center">
-  Something go here
+  Welcome to our repository  
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -74,26 +74,18 @@
 ## Features 
 - something go here
 
-  <br />
-
 <!-- CHALLENGES -->
 ## Challenges
 - something go here
 
-  <br />
-
 ## Acknowledgments
-<div style="text-align:justify">
-  something go here
 
-</div>
-
-<br />
+<p align="justify">
+  Something go here
+</p>
 
 ## References
 - something go here
-
-<br />
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
