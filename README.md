@@ -6,9 +6,10 @@
 
 <!-- Shield.io Badges -->
 <p align="center">
-    <a href="https://github.com/MicroGix/Influence-of-factors-on-students-performence/graphs/contributors"><img src="https://img.shields.io/github/all-contributors/MicroGix/Influence-of-factors-on-students-performence/main?style=for-the-badge&label=Contributors"></a>
-    <a href=""><img src=""></a>
-    <a href=""><img src=""></a>
+    [![Contributors][contributors-shield]][contributors-url]
+    [![Forks][forks-shield]][forks-url]
+    [![Stargazers][stars-shield]][stars-url]
+    [![Issues][issues-shield]][issues-url]
 </p>
 
 <!-- Welcome line -->
@@ -100,7 +101,21 @@
 
 </div>
 
-<p align="right">(<a href="#top">Back to top</a>)</p>
+<p align="right">(<a href="#header">Back to top</a>)</p>
 
+<!-- Badges link-->
+[contributors-shield]: https://img.shields.io/github/contributors/MicroGix/Influence-of-factors-on-students-performence?style=for-the-badge&label=Contributors 
 
+[contributors-url]: https://github.com/MicroGix/Influence-of-factors-on-students-performence/graphs/contributors 
 
+[forks-shield]:
+
+[forks-url]: 
+
+[stars-shield]: 
+
+[stars-url]: 
+
+[issues-shield]: 
+
+[issues-url]: 
