@@ -107,14 +107,7 @@
 [contributors-shield]: https://img.shields.io/github/contributors/MicroGix/Influence-of-factors-on-students-performence?style=for-the-badge&label=Contributors 
 
 [contributors-url]: https://github.com/MicroGix/Influence-of-factors-on-students-performence/graphs/contributors 
-[contributors-shield]: https://img.shields.io/github/contributors/Nhathuy1305/Worldwide-mental-health-disorders-data-visualization.svg?style=for-the-badge
-[contributors-url]: https://github.com/Nhathuy1305/Worldwide-mental-health-disorders-data-visualization/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Nhathuy1305/Worldwide-mental-health-disorders-data-visualization.svg?style=for-the-badge
-[forks-url]: https://github.com/Nhathuy1305/Worldwide-mental-health-disorders-data-visualization/network/members
-[stars-shield]: https://img.shields.io/github/stars/Nhathuy1305/Worldwide-mental-health-disorders-data-visualization.svg?style=for-the-badge
-[stars-url]: https://github.com/Nhathuy1305/Worldwide-mental-health-disorders-data-visualization/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Nhathuy1305/Worldwide-mental-health-disorders-data-visualization.svg?style=for-the-badge
-[issues-url]: https://github.com//Nhathuy1305/Worldwide-mental-health-disorders-data-visualization/issues
+
 [forks-shield]:
 
 [forks-url]: 
