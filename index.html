@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <title>Data Visualization</title>
+<head>
+    
+    </style>
+      <link rel="stylesheet" type="text/css" href="./pivot.min.css">
+      <link rel="stylesheet" type="text/css" href="./style.css">
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.21/jquery.csv.min.js" integrity="sha512-Y8iWYJDo6HiTo5xtml1g4QqHtl/PO1w+dmUpQfQSOTqKNsMhExfyPN2ncNAe9JuJUSKzwK/b6oaNPop4MXzkwg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="./pivot.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sortable/0.9.13/jquery-sortable-min.js" integrity="sha512-9pm50HHbDIEyz2RV/g2tn1ZbBdiTlgV7FwcQhIhvykX6qbQitydd6rF19iLmOqmJVUYq90VL2HiIUHjUMQA5fw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>Dataset Overview</h1>
+    </div>
+
+    <!-- Container chứa body -->
+    <div class="container">
+        <!-- Mảng trái -->
+        <div class="left">
+            <div class="row" id="rowtren">
+                <div class="box mangtren margintong" id="o1">
+                    <!-- <h1>CSV Data Row Count</h1> -->
+                    <div id="row-count"></div>
+                    Total Students</div>
+                <div class="box mangtren margintong" id="o2"></div>
+            </div>
+            <div class="row">
+                <div class="box margintong" id="o3"></div>
+                <div class="box margintong" id="o4"></div>
+            </div>
+        </div>
+
+        <!-- Mảng phải -->
+        <div class="right">
+            <div class="large-box margintong" id="olon">Ô lớn</div>
+            <div class="row">
+                <div class="small-box margintong" id="on1">Ô nhỏ 1</div>
+                <div class="small-box margintong" id="on2">Ô nhỏ 2</div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
