@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<lang = "en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tên của Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="test.css" />
+    <script src="https://d3js.org/d3.v4.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Dataset Overview</h1>
+    </div>
+
+    <div class="container">
+      <div class="left">
+        <div class="row" id="rowtren">
+          <div class="box mangtren margintong" id="o1">
+            Total Students
+          </div>
+          <div class="box mangtren margintong" id="o2">Choose genders</div>
+        </div>
+        <div class="row">
+          <div class="box margintong" id="o3">
+            Proportion of Male and Female Students
+          </div>
+          <div class="box margintong" id="o4">Proportion based on group</div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="large-box margintong" id="olon">Ô lớn</div>
+        <div class="row">
+          <div class="small-box margintong" id="on1">Ô nhỏ 1</div>
+          <div class="small-box margintong" id="on2">Ô nhỏ 2</div>
+        </div>
+      </div>
+    </div>
+    <script type="papaparse" src="test.js"></script>
+  </body>
+</html>
