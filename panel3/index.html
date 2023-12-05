@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <meta charset="utf-8" />
+  <title>Data Visualization</title>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <h1>Dataset Overview</h1>
+    </div>
+
+    <div class="container">
+      <!-- Left-side panel-->
+      <div class="left">
+        <div class="area">
+          <div id="box1">Total Students:</div>
+          <div id="box2">Gender:</div>
+          <div id="stack-plot"></div>
+          <div id="box3">Show average of total marks:</div>
+        </div>
+      </div>
+      <!-- Right-side panel-->
+      <div class="right">
+        <div class="area">
+          <div id="plot1">A plot to show distribution of fail students</div>
+          <div id="plot2">A plot to show distribution of pass students</div>
+          <div id="box2">Conclusion:</div>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

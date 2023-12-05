@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+/* left-side panel */
+.left {
+  width: 40%;
+  padding: 20px;
+}
+.left.area {
+  display: flex;
+  flex-wrap: wrap;
+}
+.left.area#box1 {
+  height: 10%;
+  width: 50%;
+  padding: 10px;
+}
+.left.area#box2 {
+  height: 10%;
+  width: 50%;
+  padding: 10px;
+}
+.left.area#stack-plot{
+  height: 50%;
+  width: 100%;
+  padding: 10px;
+}
+.left.area#box3 {
+  height: 40%;
+  width: 100%;
+  padding: 10px;
+}
+
+/* right-side */
+.right {
+  width: 60%;
+  padding: 20px;
+}
+.right.area {
+  display: flex;
+  flex-wrap: wrap;
+}
+
