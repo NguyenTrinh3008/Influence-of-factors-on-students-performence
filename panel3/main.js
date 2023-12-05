@@ -17,13 +17,7 @@ function rowConverter(d) {
 
 const df_url =
   "https://raw.githubusercontent.com/MicroGix/Influence-of-factors-on-students-performence/main/main_data.csv";
-d3.csv(df_url, rowConverter, function (error, data) {
-  if (error) {
-    console.log(error);
-  } else {
-    initPanel_3(data);
-  }
-});
+d3.csv(df_url, rowConverter, function(data) {initPanel_3(data)})
 
 function initPanel_3(data) {
   const outer_w = 500;
@@ -36,78 +30,78 @@ function initPanel_3(data) {
   const stack = d3
     .select("#stack-plot")
     .append("svg")
-      .att("width", outer_w)
-      .attr("height",outer_h)
+    .attr("width", outer_w)
+    .attr("height", outer_h)
     .append("g")
-      .attr("transform", "translate("+margin.left+", "+margin.top+")");
+    .attr("transform", "translate(" + margin.left + ", " + margin.top + ")");
 
-  // groups data bases on result 
-  const results = d3.map(data, (d) => d.result).keys()
+  // groups data bases on result
+  const results = d3.map(data, (d) => d.result).keys();
   const x_stack = d3
     .scaleBand()
     .domain(results)
-    .range([0,width - p])
-    .padding([0.2])
+    .range([0, w - p])
+    .padding([0.2]);
   stack
     .append("g")
-    .attr("transform", "translate(0,"+h+")") 
+    .attr("transform", "translate(0," + h + ")")
     .call(d3.axisBottom(x_stack).tickSizeOuter(0));
 
   // function to count number of male or female student
-  data.forEach(countGender); 
+  const genderData = d3.map(data, (d) => d.gender);
+
+  // genderData.forEach(countGender);
   function countGender(i) {
-    let n_male = 0;
-    let n_female = 0;
-    let total = 0
-    if (i=="male") {
+    let n_male, n_female = 0;
+    if (i == "male") {
       n_male++;
-    } else if(i=="female") {
+    } else if (i == "female") {
       n_female++;
-    } else{
+    } else {
       total++;
     }
-    return n_male, n_female, total 
+    let total = n_male + n_female;
+    return n_male, n_female, total;
   }
 
   const y_stack = d3
     .scaleLinear()
-    .domain([0, function(d){
-      if (total<1000) {
+    .domain([0, function (d) {
+      if (total < 1000) {
         return 1000;
-      } else{
+      } else {
         return total;
       }
     }])
-    .range([h -p, 0]);
+    .range([h - p, 0]);
   stack
     .append("g")
     .call(d3.axisLeft(y_stack));
 
-  const genders = d3.map(data, (d) => d.gender).keys()
+  const genderGroup = d3.map(data, (d) => d.gender).keys();
   const color = d3
     .scaleOrdinal()
-    .domain(genders)
-    .range(['red','blue']);
+    .domain(genderGroup)
+    .range(["red", "blue"]);
 
-  const stackedData = d3
-    .stack()
-    .keys(genders)
-    (data)
+  // const stackedData = d3
+  //   .stack()
+  //   .keys(genderGroup)(data);
 
-  stack
-    .append("g")
-    .selectAll("g")
-    .data(stackedData)
-    .enter().append("g")
-    .attr("fill", (d)=>color(d.key))
-    .selectAll("rect")
-    .data((d)=>d)
-    .enter().append("rect")
-    .attr("x", (d)=>x_stack(d.data.group))
-    .attr("y", (d)=>y_stack(d[1]))
-    .attr("heigt", function(d) {
-      return
-        y(d[0])-y(d[1]);
-    })
-    .attr("width", x_stack.bandwidth());
+  // stack
+  //   .append("g")
+  //   .selectAll("g")
+  //   .data(stackedData)
+  //   .enter().append("g")
+  //   .attr("fill", (d) => color(d.key))
+  //   .selectAll("rect")
+  //   .data((d) => d)
+  //   .enter().append("rect")
+  //   .attr("x", (d) => x_stack(d.data.group))
+  //   .attr("y", (d) => y_stack(d[1]))
+  //   .attr("heigt", function (d) {
+  //     return;
+  //     y(d[0]) - y(d[1]);
+  //   })
+  //   .attr("width", x_stack.bandwidth());
 }
