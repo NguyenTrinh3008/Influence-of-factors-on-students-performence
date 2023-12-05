@@ -1,55 +1,45 @@
 h1 {
-  text-align: center;
+    text-align: center;
 }
 
 .header {
-  background-color: #333;
-  color: white;
-  padding: 20px;
-  text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
 }
 
 .container {
-  display: flex;
+    display: flex;
 }
 
-/* left-side panel */
+/* left-side */
 .left {
-  width: 40%;
-  padding: 20px;
+    width: 40%;
+    padding: 20px;
 }
-.left.area {
-  display: flex;
-  flex-wrap: wrap;
+
+.area {
+    height: 10%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* To include padding in the total width/height */
 }
-.left.area#box1 {
-  height: 10%;
-  width: 50%;
-  padding: 10px;
+
+#stack-plot {
+    height: 50%;
 }
-.left.area#box2 {
-  height: 10%;
-  width: 50%;
-  padding: 10px;
-}
-.left.area#stack-plot{
-  height: 50%;
-  width: 100%;
-  padding: 10px;
-}
-.left.area#box3 {
-  height: 40%;
-  width: 100%;
-  padding: 10px;
+
+#box3 {
+    height: 40%;
 }
 
 /* right-side */
 .right {
-  width: 60%;
-  padding: 20px;
-}
-.right.area {
-  display: flex;
-  flex-wrap: wrap;
+    width: 60%;
+    padding: 20px;
 }
 
+.right .area {
+    display: flex;
+    flex-wrap: wrap;
+}
