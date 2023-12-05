@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+      <link rel="stylesheet" href="./style.css">
+      <!-- Add these CSS and JS links for DataTables -->
+<link href="https://cdn.datatables.net/v/ju/dt-1.13.8/af-2.6.0/b-2.4.2/b-colvis-2.4.2/b-html5-2.4.2/b-print-2.4.2/cr-1.7.0/date-1.5.1/fc-4.3.0/fh-3.4.0/kt-2.11.0/r-2.5.0/rg-1.4.1/rr-1.4.1/sc-2.3.0/sp-2.2.0/sl-1.7.0/sr-1.3.0/datatables.min.css" rel="stylesheet">
+ 
+<script src="https://cdn.datatables.net/v/ju/dt-1.13.8/af-2.6.0/b-2.4.2/b-colvis-2.4.2/b-html5-2.4.2/b-print-2.4.2/cr-1.7.0/date-1.5.1/fc-4.3.0/fh-3.4.0/kt-2.11.0/r-2.5.0/rg-1.4.1/rr-1.4.1/sc-2.3.0/sp-2.2.0/sl-1.7.0/sr-1.3.0/datatables.min.js"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<!-- Link to d3-tip via CDN -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/index.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1><i class="fa fa-school-circle-xmark"></i> Student Performance Dashboard <i class="fa fa-school-circle-xmark"></i></h1>
+        
+    </div>
+
+    <!-- Container chứa body -->
+    <div class="container">
+        <!-- Mảng trái -->
+        <div class="left">
+            <div class="row" id="rowtren">
+                <div class="box box1 mangtren margintong" id="o1">
+                    <div id="row-count"></div>
+                </div>
+                <div class="box mangtren margintong" id="o2">
+                    <label for="genderFilter">Select Gender:</label>
+                    <select id="genderFilter">
+                    <option value="all">All</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    </select>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="box margintong" id="o3">Ô 3</div>
+                <div class="box margintong" id="o4">Ô 4</div>
+            </div>
+        </div>
+
+        <!-- Mảng phải -->
+        <div class="right">
+            <div class="large-box box  margintong" id="olon">
+                <h2>Score in difference Subject groups</h2>
+                <table border="1" id="data-table">
+                    <thead>
+                      <tr>
+                        <th>Row Labels</th>
+                        <th>Sum of math score</th>
+                        <th>Sum of reading score</th>
+                        <th>Sum of writing score</th>
+                      </tr>
+                    </thead>
+                    <tbody id="data-table-body">
+                      
+                    </tbody>
+                </table>
+            </div>
+            <div class="row box ">
+            <div class="small-box">
+                <div class=" margintong" id="on2">
+                    <h2>Score in difference Subject groups</h2>
+                    <table border="1" id="data_table_degree">
+                        <thead>
+                          <tr>
+                            <th>Row Labels</th>
+                            <th>male</th>
+                            <th>female</th>
+                            <th>Grand Total</th>
+                          </tr>
+                        </thead>
+                        <tbody id="data_table_2">
+                          
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+               
+            <div>
+                <div class="box margintong" id="on3">
+                    <h4>Average of Total Mark Lunch time</h4>
+                    <div class="box rightbox_small">
+                        
+                        <h6>Free/Reduce</h6>
+                        <p class="Free_Reduce"></p>
+
+                    </div>
+                    <div class="box rightbox_small">
+                        
+                        <h6>Standard</h6>
+                        <p class="Standard"></p>
+                    </div>
+                    <div class="box rightbox_small lage_box">
+                        <h6>Comment</h6>
+                    </div>
+                </div>
+            </div>
+               
+            </div>
+            
+           
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="./table.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+
+   
+
+</body>
+</html>
