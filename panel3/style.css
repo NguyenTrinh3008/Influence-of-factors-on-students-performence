@@ -18,18 +18,17 @@ h1 {
     padding: 20px;
 }
 
-.area {
-    height: 10%;
+.area{
     width: 100%;
     padding: 10px;
-    box-sizing: border-box; /* To include padding in the total width/height */
+    box-sizing: border-box; /* include padding in both width,height */
 }
 
 #stack-plot {
     height: 50%;
 }
 
-#box3 {
+#l-box3 {
     height: 40%;
 }
 
